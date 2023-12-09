@@ -1,0 +1,43 @@
+.ringing__notification {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #121c28;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 1rem;
+  width: 34rem;
+}
+.call__wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.ringing__notification div {
+  gap: 2rem;
+  align-items: center;
+}
+.ringing__notification img {
+  width: 8rem;
+  object-fit: cover;
+  height: 8rem;
+  border-radius: 50%;
+}
+.btn__cncl {
+  background-color: red;
+  padding: 0.6rem;
+  display: flex;
+  border-radius: 2px;
+  align-items: center;
+  justify-content: center;
+}
+.btn__accept {
+  background-color: green;
+  padding: 0.6rem;
+  display: flex;
+  border-radius: 2px;
+  align-items: center;
+  justify-content: center;
+}

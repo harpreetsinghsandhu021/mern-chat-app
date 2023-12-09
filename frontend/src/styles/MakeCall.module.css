@@ -1,0 +1,90 @@
+.call__actions {
+  width: 30rem;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  color: #fff;
+  gap: 2rem;
+  height: 45rem;
+  padding: 1rem 0.5rem;
+  position: relative;
+}
+.hidden {
+  display: none !important;
+}
+.show {
+  display: block;
+}
+.call__header {
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  justify-content: space-between;
+  z-index: 9999;
+}
+.call__header svg {
+  width: auto;
+  height: 2.2rem;
+}
+.call__cnt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.video__cnt {
+  flex-basis: 24rem;
+}
+.call__controls {
+  padding: 1.8rem 1.5rem;
+  background-color: #272527;
+  z-index: 9999;
+}
+.call__controls div {
+  justify-content: space-between;
+}
+.call__controls button svg,
+.call__controls button img {
+  width: auto;
+  height: 2.2rem;
+}
+.call__controls button {
+  background-color: #23313e;
+  height: 4rem;
+  border-radius: 50%;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.call__controls button:nth-child(4) {
+  background-color: red;
+}
+.large__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  z-index: 1;
+  object-fit: cover;
+}
+
+.small__video {
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+  width: 10rem;
+  height: 12rem;
+  background-color: lightblue;
+  border-radius: 0.4rem;
+  z-index: 2;
+  transition: all 0.1s ease;
+}
+.move__up {
+  transform: translateY(-70%);
+}
+.hidden {
+  display: none;
+}

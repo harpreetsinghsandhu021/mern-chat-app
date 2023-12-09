@@ -1,0 +1,61 @@
+.profile__settings__wrapper {
+  background-color: #eff2f5;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform: translateX(-100%);
+  z-index: 100;
+  transition: all 0.2s ease;
+}
+.profile__settings__wrapper header {
+  background-color: #8167fe;
+  min-height: 11rem;
+  color: #fff;
+  font-size: 2rem;
+  display: flex;
+  align-items: flex-end;
+  padding: 1.6rem;
+}
+.inner__header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.user__settings {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.uploader__btn {
+  border-radius: 50% !important;
+  width: 20rem !important;
+  height: 20rem !important;
+  box-shadow: 0 0 0.4rem 0 rgba(0, 0, 0, 0.2) !important;
+  padding: 0 !important;
+  overflow: hidden;
+}
+.uploader__btn img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain !important;
+}
+.input__wrap {
+  background-color: #fff;
+  width: 98%;
+  margin: 1 rem auto;
+  padding: 1rem 2rem;
+}
+.input__wrap label {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.input__wrap input {
+  padding: 0.8rem 0 !important;
+  font-size: 1.6rem;
+  outline: none !important;
+}
+.input__wrap input:active {
+  border: none;
+}
